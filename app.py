@@ -13,8 +13,8 @@ ENV = 'prod'
 # Please enter your AWS IAM user's access_key and secret_access_key.
 # note: Please do not share your acess key with anyone for sercurity reasons.
 
-s3 = boto3.resource(service_name='s3',
-                    region_name='ap-south-1',
+s3 = boto3.resource(service_name=###,
+                    region_name='########',
                     aws_access_key_id='####################', 
                     aws_secret_access_key='########################################')
 
